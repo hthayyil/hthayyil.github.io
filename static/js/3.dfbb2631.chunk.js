@@ -1,0 +1,2 @@
+(this.webpackJsonphthayyil=this.webpackJsonphthayyil||[]).push([[3],{51:function(t,e,a){"use strict";a.r(e),e.default=a.p+"static/media/aboutMySelf.english.e7becaeb.md"}}]);
+//# sourceMappingURL=3.dfbb2631.chunk.js.map
