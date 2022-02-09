@@ -1,37 +1,30 @@
 {
-  "name": "website",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://hthayyil.github.io/Portfolio",
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "framer-motion": "^1.11.0",
-    "gh-pages": "^3.0.0",
-    "node-sass": "^4.14.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-instagram-authless-feed": "github:jamesmoriarty/react-instagram-authless-feed",
-    "react-instagram-embed": "^1.5.0",
-    "react-native-embed-instagram": "^0.1.1",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1",
-    "react-scroll": "^1.7.16",
-    "react-spring": "^8.0.27",
-    "react-typist": "^2.0.5",
-    "styled-components": "^5.1.1"
+    "file-loader": "^6.2.0",
+    "i18next": "^20.3.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-i18next": "^11.11.0",
+    "react-helmet": "^6.1.0",
+    "react-refresh-webpack-plugin": "^0.1.0",
+    "react-scripts": "4.0.3",
+    "react-transition-group": "^4.4.2",
+    "sass": "^1.35.1",
+    "web-vitals": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app"
+    ]
   },
   "browserslist": {
     "production": [
@@ -46,6 +39,6 @@
     ]
   },
   "devDependencies": {
-    "typescript": "^3.9.3"
+    "url-loader": "^4.1.1"
   }
 }
